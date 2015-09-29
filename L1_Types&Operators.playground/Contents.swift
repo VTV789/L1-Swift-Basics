@@ -41,13 +41,18 @@ if allowance >= ticketPrice + iceCreamPrice {
 var hungry = true
 var vegetarian = false
 
-if hungry {
+if !hungry { /* exclamation point indicating reverse */
     print("Let's eat!")
 } else {
     print("Let's wait.")
 
-
-
+if hungry && !vegetarian {
+    print("let's eat steak!")
+} else if hungry && vegetarian {
+    print("How about pumkin curry")
+} else {
+    print("nevermind")
+}
 
 
 
