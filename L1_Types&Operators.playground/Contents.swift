@@ -15,3 +15,8 @@ class LightSwitch {
 var livingRoomSwitch = LightSwitch()
 livingRoomSwitch.on
 
+// Example 2: Strings and Characters
+var dollarSign: Character = "4"
+var myFirstSwiftString: String = "mo' money"
+var mySecondSwiftString: String = "mo' problems"
+var concatenatedString = myFirstSwiftString + ", " + mySecondSwiftString
