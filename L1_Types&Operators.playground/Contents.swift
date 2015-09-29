@@ -36,3 +36,26 @@ if allowance >= ticketPrice + iceCreamPrice {
 } else {
     print("Let's watch a movie at home and eat ice cream")
 }
+
+// Example 2 Logical operators
+var hungry = true
+var vegetarian = false
+
+if hungry {
+    print("Let's eat!")
+} else {
+    print("Let's wait.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
