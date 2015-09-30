@@ -36,9 +36,18 @@ lbsPerDay = 0.25
 dogName = "Lil Frankie"
 doggyDiet = "\(dogName) eats \(lbsPerDay * daysPerMonth) lbs of dog food per month"
 
+// A String isn't just a String
+// A String is an Array of Characters
 
+var password = "Meet me in St. Louis"
+for character in password {
+    if character == "e" {
+        print("found an e!")
+    }
+}
 
-
+// A String can be treeated as an NSString
+let newPassword = password.stringByReplacingOccurrencesOfString("e", withString: "3")
 
 
 
