@@ -53,6 +53,15 @@ if hungry && !vegetarian {
 } else {
     print("nevermind")
 }
+}
+
+// or operator
+var thereIsPie = true
+if hungry || thereIsPie {
+    print("Let's eat!")
+} else {
+    print("let's wait.")
+}
 
 
 
