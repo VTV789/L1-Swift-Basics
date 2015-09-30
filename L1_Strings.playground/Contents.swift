@@ -16,3 +16,12 @@ let theTruth = myFirstString + ", " + mySecondString
 let similarTruth = "💰 can't buy me 💖"
 
 // String interpolation 
+/* in other words, inserting values variables and expressions directly into string literals */
+
+// Plain string
+var doggyDiet = "Lulu eats 25lbs of dog food per month"
+
+// String with variables 
+var dogName = "Ferriss"
+// var ferrisPic = UIImage(named:"SpringerdoodleFerris.jpg")!
+doggyDiet = "\(dogName) eats 25lbs of dog food per month"
