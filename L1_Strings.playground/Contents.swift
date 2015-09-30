@@ -1,7 +1,11 @@
-//: Playground - noun: a place where people can play
+//: STRINGS
 
 import UIKit
 import Foundation
 
-var funWithStrings = UIImage(named:"kittenWithOrangeString.jpg")!
+// var funWithStrings = UIImage(named:"kittenWithOrangeString.jpg")!
+
+// Defining Strings using string literals 
+let myFirstString = "mo 💰"
+let mySecondString = "mo problems"
 
