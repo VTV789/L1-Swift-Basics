@@ -25,3 +25,8 @@ var doggyDiet = "Lulu eats 25lbs of dog food per month"
 var dogName = "Ferriss"
 // var ferrisPic = UIImage(named:"SpringerdoodleFerris.jpg")!
 doggyDiet = "\(dogName) eats 25lbs of dog food per month"
+
+// String with variables and expression
+var lbsPerDay = 0.75
+var daysPerMonth:Double = 30.0
+doggyDiet = "\(dogName) eats \(lbsPerDay * daysPerMonth) of dog food per month"
