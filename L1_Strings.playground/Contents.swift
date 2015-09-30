@@ -12,3 +12,7 @@ let mySecondString = "mo problems"
 // String concatenation
 let theTruth = myFirstString + ", " + mySecondString
 
+// Emoji characters
+let similarTruth = "💰 can't buy me 💖"
+
+// String interpolation 
