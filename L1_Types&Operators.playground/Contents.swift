@@ -72,9 +72,15 @@ if hungry || thereIsPie {
         answer2
 } */
 
-// question ? answer1 : answer2 
+// question ? answer1 : answer2
 
+// could be rewritten like so... 
+hungry ? print("Let's eat!") : print("Let's wait.")
 
+// Ternary statements can also be used as expressions. 
+let sandwichPrice = 5.0
+var tax = true
+var lunchPrice = sandwichPrice + (tax ? 0.50 : 0)
 
 
 
