@@ -40,11 +40,12 @@ doggyDiet = "\(dogName) eats \(lbsPerDay * daysPerMonth) lbs of dog food per mon
 // A String is an Array of Characters
 
 var password = "Meet me in St. Louis"
-for character in password {
+for character in password.characters {
     if character == "e" {
         print("found an e!")
     }
 }
+
 
 // A String can be treeated as an NSString
 let newPassword = password.stringByReplacingOccurrencesOfString("e", withString: "3")
