@@ -20,3 +20,7 @@ let birthweight = "6 lbs 7 ounces"
 var currentWeight = "22lbs"
 //var chubbyBaby = UIImageView(named:"fat-baby-picture.jpg")!
 
+// Let vs. Var Quiz
+let buildingCapacity = 300
+var attendance = 220
+attendance += 2
