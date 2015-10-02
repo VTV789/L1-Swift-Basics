@@ -16,3 +16,7 @@ let currentYear = 2015
 let age = currentYear - birthYear
 
 // Example 2b - What if age only needs to be calculated once?
+let birthweight = "6 lbs 7 ounces"
+var currentWeight = "22lbs"
+//var chubbyBaby = UIImageView(named:"fat-baby-picture.jpg")!
+
