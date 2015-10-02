@@ -24,3 +24,11 @@ var currentWeight = "22lbs"
 let buildingCapacity = 300
 var attendance = 220
 attendance += 2
+
+// Two ways of being immutable - #1 Assignment 
+// var goat = UIImageView(named:"Chinese-New-Year-3.jpg")!
+var yearsOfTheGoat = [1967, 1979, 1991, 2003, 2015]
+let yearsOfTheSheep = [1967, 1979, 1991, 2003, 2015]
+
+// Two ways of being immutable - #2 Value alternation
+yearsOfTheGoat.append(2027)
