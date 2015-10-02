@@ -19,3 +19,7 @@ let sillySentence = "The \(nounArray)[index1]) jumped over the \(nounArray[index
 
 let howManyCharacters = "How much wood could a woodchuck chuck if a woodchuck could chuck wood?"
 
+//Solutation 
+let thisMany = howManyCharacters.characters.count
+
+
