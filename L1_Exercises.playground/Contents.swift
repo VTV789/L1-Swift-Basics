@@ -1,4 +1,4 @@
-//: Playground - noun: a place where people can play
+//LESSON1 EXERCISES - String Manipulation
 
 import UIKit
 import Foundation
@@ -13,4 +13,9 @@ let index2 = Int(arc4random() % 9)
 
 let sentence = "The \(nounArray[6]) spilled her \(nounArray[7])."
 let sillySentence = "The \(nounArray)[index1]) jumped over the \(nounArray[index2])."
+
+/* Exercise 3
+   How many characters are in this string? */
+
+let howManyCharacters = "How much wood could a woodchuck chuck if a woodchuck could chuck wood?"
 
