@@ -12,5 +12,7 @@ personalizedEncouragement = personalizedEncouragement.stringByReplacingOccurrenc
 
 // Example 2a
 let birthYear = 2008
-var currentYear = 2015
-var age = currentYear - birthYear
+let currentYear = 2015
+let age = currentYear - birthYear
+
+// Example 2b - What if age only needs to be calculated once?
