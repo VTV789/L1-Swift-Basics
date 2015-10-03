@@ -51,7 +51,12 @@ if word.rangeOfString("tuna") != nil {
     print("yest")
 }
 
+/* Exercise 6
+   Write a program that deletes all occurrences of the word "like" in the following string. */
 
+let lottaLikes = "If like, you wann learn Swift, like, you should build losts of samll apps, cuz it's like, a good way to practice."
 
+let noLikes = lottaLikes.stringByReplacingOccurrencesOfString("like", withString: "")
 
+/*  */
 
