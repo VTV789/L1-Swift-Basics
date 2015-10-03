@@ -18,6 +18,8 @@ let sillySentence = "The \(nounArray)[index1]) jumped over the \(nounArray[index
 
 let newSentence = "I took the \(nounArray[0])for a walk near the \(nounArray[2])."
 
+let randomSentence = "Osman loves me more than the \(nounArray[index2])."
+
 /* Exercise 3
    How many characters are in this string? */
 
