@@ -63,3 +63,24 @@ let noLikes = lottaLikes.stringByReplacingOccurrencesOfString("like", withString
 let sillyMonkeyString = "A monkey stole my iPhone"
 let newString = sillyMonkeyString.stringByReplacingOccurrencesOfString("monkey", withString: "🐒")
 let newerString = newString.stringByReplacingOccurrencesOfString("iPhone", withString: "📱")
+
+/* Repeat the above string manipulation, but this time using a for-in loop. You can start off with this dictionary and string. */
+
+let dictionary = ["monkey": "🐒", "iPhone": "📱"]
+var newestString = sillyMonkeyString
+
+// Soluation 
+for (key, value) in dictionary {
+    newestString = newestString.stringByReplacingOccurrencesOfString(key, withString: value)
+}
+
+print(newestString)
+
+
+
+
+
+
+
+
+
