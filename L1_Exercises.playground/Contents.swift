@@ -76,6 +76,21 @@ for (key, value) in dictionary {
 
 print(newestString)
 
+/* Exercise 8
+   Josie has been saving her pennies and has them all counted up. Write a program that, given a number of pennies, prints out how much money Josie has in dollars and cents. */
+
+// Example
+let numOfPennies = 567
+//desired output ="$5.67" 
+
+// Solution
+let dollarInt = numOfPennies/100
+let dollarsString: String = "$" + "\(dollarInt)" + "."
+
+let censString: String = String(numOfPennies % 100)
+let finalString = dollarsString + censString
+
+
 
 
 
