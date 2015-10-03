@@ -31,3 +31,18 @@ let thisMany = howManyCharacters.characters.count
 /* Exercis 4
 How many times does the letter "g" or "G" appear in the following string? Use a for-in loop to find out! */
 
+let gString = "Gary's giraffe gobbled gooseberries greedily"
+var count = 0
+
+// Solution
+for character in gString.characters {
+    if character == "g" || character == "G" {
+        count++
+    }
+}
+
+
+
+
+
+
